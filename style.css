@@ -13,6 +13,7 @@ body{
 	border-radius: 5px;
 	flex-basis: 130px;
 	flex-grow: 1;
+	
 }
 
 .flex-block__item{
@@ -22,11 +23,11 @@ body{
 .flex-block{
 	height: 1000px;
 	display: flex;
+	flex-direction: row-reverse;
 	align-content: space-between; 
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	flex-direction: row-reverse;
 	margin-bottom: 10px;
 }
 
@@ -34,7 +35,8 @@ body{
 	background-color: red;
 	align-self: flex-end;
 	padding: 0px;
-	order: 1;
+	order: -1;
+	
 }
 
 .container{

@@ -15,6 +15,10 @@ body{
 	flex-grow: 1;
 }
 
+.flex-block__item{
+	margin-left: 10px;
+}
+
 .flex-block{
 	height: 1000px;
 	display: flex;
